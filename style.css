@@ -13,6 +13,7 @@ h3, i {
 
 h1 {
     font-size: 24px;
+    padding-left: 100px;
 }
 
 h2 {
@@ -20,7 +21,7 @@ h2 {
     font-weight: bold;
 }
 
-ul {
+a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -28,6 +29,8 @@ ul {
 button {
     background-color: #3882F6;
     border-radius: 10px;
+    width: fit-content;
+    padding: 2px 15px;
 }
 
 .content-two img {
@@ -48,4 +51,39 @@ i {
     font-weight: 1;
 }
 
+.header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 100px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.content-one-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.content-one {
+    display: flex;
+}
+
+.content-one img {
+    height: 200px;
+    width: 500px;
+    padding-right: 100px;
+    flex-shrink: 0;
+    padding-top: 50px;
+}
 
