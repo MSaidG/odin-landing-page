@@ -1,7 +1,15 @@
+
 .header, .content-one {
     background-color: #1F2937;
     margin: -10px;
-    padding: 0px 200px;
+}
+
+.header {
+    display: flex;
+    padding: 20px 560px;
+    justify-content: center;
+    align-content: center;
+    gap: 750px;
 }
 
 .content-one p {
@@ -17,7 +25,13 @@
 
 
 .content-one {
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+h1 {
+    white-space: nowrap;
 }
 
 h1, h2 {
@@ -32,6 +46,7 @@ h3, i {
 h1 {
     font-size: 24px;
     padding-left: 100px;
+    font-weight: 300;
 }
 
 h2 {
@@ -65,12 +80,15 @@ button {
 
 .content-two {
     padding: 0px 200px;
+    margin: 0px 500px
 }
 
 h3 {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    white-space: nowrap;
+
 }
 
 
@@ -80,14 +98,10 @@ i {
     font-weight: 1;
 }
 
-.header {
-    display: flex;
-}
+
 
 ul {
     display: flex;
-    flex: auto;
-    justify-content: flex-end;
     gap: 30px;
     padding-right: 100px;
     list-style: none;
@@ -104,13 +118,10 @@ a {
     margin-left: 100px;
 }
 
-.content-one {
-    display: flex;
-}
 
 .content-one img {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: auto;
     padding-right: 100px;
     flex-shrink: 0;
     padding-top: 50px;
@@ -143,8 +154,11 @@ a {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 100px 400px;
-    align-items: end;
+    padding: 100px 500px;
+    align-items: center;
+    padding: 0px auto;
+    justify-content: center;
+    
 }
 
 .content-three .writer {
@@ -153,12 +167,14 @@ a {
 
 .content-four {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 200px;
     background-color: #3882F6;
-    margin: 50px 200px;
     color: #E5E7EB;
     border-radius: 5px;
-    padding: 0px 150px;
+    padding: 0px 10px;
+    margin: 60px auto;
+    width: fit-content;
 }
 
 h4 {
@@ -172,6 +188,7 @@ h4 {
 
 .content-four button {
     margin-top: 45px;
+    white-space: nowrap;
 }
 
 .footer {
